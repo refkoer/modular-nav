@@ -17,11 +17,25 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   list-style-type: none;
+  color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #0074d9
 }
 
 li {
   display: inline;
+}
+
+header{
+  background-color: #e2e2e2;
 }
